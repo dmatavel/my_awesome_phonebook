@@ -6,6 +6,8 @@ My Awesome PhoneBook is an introductory exercise in the C++ language. Its aim is
 
 ## **Instructions:**
 
+- Download the [source code](https://github.com/dmatavel/my_awesome_phonebook/archive/refs/heads/main.zip).
+
 **Compiling the source files:**
 - Enter the program directory and insert `make`.
 
