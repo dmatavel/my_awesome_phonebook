@@ -6,7 +6,7 @@
 /*   By: dmatavel <dmatavel@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/16 12:00:55 by dmatavel          #+#    #+#             */
-/*   Updated: 2023/09/16 04:08:13 by dmatavel         ###   ########.fr       */
+/*   Updated: 2023/10/15 07:57:49 by dmatavel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,12 @@ int	main(void)
 	std::string	str;
 	int			savedContacts;
 	static int	i;
+	static int	j;
 	int			index;
 
 	savedContacts = 0;
 	i = 0;
+	j = -1;
 	system("clear");
 	PhoneBook.promptMenu();
 	while (42)
@@ -32,6 +34,12 @@ int	main(void)
 		else if (str.compare("ADD") == 0
 			|| str.compare("add") == 0)
 		{
+			if (i > 7)
+			{
+				i = j + 1;
+				if (j > 7)
+					j = 0;
+			}
 			PhoneBook.addContact(i);
 			i++;
 			if (savedContacts < 8)

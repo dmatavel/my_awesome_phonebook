@@ -6,7 +6,7 @@
 /*   By: dmatavel <dmatavel@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/16 14:11:53 by dmatavel          #+#    #+#             */
-/*   Updated: 2023/09/16 04:08:51 by dmatavel         ###   ########.fr       */
+/*   Updated: 2023/10/15 07:39:18 by dmatavel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,8 +36,14 @@ void	PhoneBook::promptMenu(void)
 
 void	PhoneBook::addContact(int i)
 {
+	static int	j;
+	
+	j = 0;
 	if (i > 7)
-		i = 0;
+	{
+		i = j;
+		j++;
+	}
 	PhoneBook::contactsList[i].setIndex(i);
 	PhoneBook::contactsList[i].setFirstName();
 	PhoneBook::contactsList[i].setLastName();
