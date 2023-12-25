@@ -1,8 +1,8 @@
-# my_awesome_phonebook
+# phonebook
 
 ## **Description:**
 
-My Awesome PhoneBook is an introductory exercise in the C++ language. Its aim is to learn namespaces, classes, member functions, stdio streams, initialization lists, static, const, and a few other basic things.
+My Awesome PhoneBook is an introductory exercise to C++ language in 42 cursus. Its aim is to learn namespaces, classes, member functions, stdio streams, initialization lists, static, const, and a few other basic things.
 
 ## **Instructions:**
 
@@ -20,4 +20,4 @@ Once the program is run, the user must enter one of three options: ADD, SEARCH o
 
 - SEARCH: Displays a list with basic information about saved contacts. You can display more information about a specific contact by entering its index.
 
-- EXIT: Quit the program. All saved contacts are lost forever!
+- EXIT: Quit the program. All saved contacts are lost.
