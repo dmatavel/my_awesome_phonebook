@@ -19,7 +19,7 @@ You can download the source code [here](https://github.com/dmatavel/phonebook/ar
 
 Alternatively, you can clone this repository in your machine. Simple copy and paste or write the following command in your terminal:
 
-    cd ~/Downloads/ &&`git clone https://github.com/dmatavel/phonebook.git`
+    cd ~/Downloads/ && git clone https://github.com/dmatavel/phonebook.git
 
 It assumes that you have [Git](https://git-scm.com/) installed and a **Downloads** folder in your **Home** directory. If you face any error, check this requirements.
 
@@ -29,7 +29,7 @@ If you downloaded the zip file, extract it and enter the **phonebook-main** fold
 
     make phonebook
 
-It is expected that an executable named **phonebook** to be created. After that, run the program with:
+An executable named **phonebook** will be created. After that, run the program with:
 
     ./phonebook
 
