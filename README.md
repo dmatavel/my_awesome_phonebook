@@ -1,23 +1,70 @@
+
 # phonebook
 
-## **Description:**
+## Name
 
-My Awesome PhoneBook is an introductory exercise to C++ language in 42 cursus. Its aim is to learn namespaces, classes, member functions, stdio streams, initialization lists, static, const, and a few other basic things.
+phonebook - a crap phonebook software.
 
-## **Instructions:**
+## **Synopsis**
 
-- Download the [source code](https://github.com/dmatavel/my_awesome_phonebook/archive/refs/heads/main.zip).
+**phonebook** - the program will display its options.
 
-**Compiling the source files:**
-- Enter the program directory and insert `make`.
+## Description
 
-**Run the program:**
-- Insert `./phonebook`.
+phonebook records a short list of  contacts and some basic info about then. After execution, the program displays its **options**, they must be inserted by the user in a uppercase or lowercase string format: 1) **add**: add a new contact. A maximum of 8 contacts can be added; if a ninth contact is added, the oldest is replaced by the most recent; 2) **search**: displays a list with basic information about saved contacts. You can view more about a specific contact by entering its index; 3) **exit**: quit the program. All saved contacts are lost.
 
-Once the program is run, the user must enter one of three options: ADD, SEARCH or EXIT (uppercase is not mandatory):
+## **Download**
 
-- ADD: Add a new contact. A maximum of 8 contacts can be added; if a ninth contact is added, the oldest is replaced by the most recent.
+You can download the source code [here](https://github.com/dmatavel/phonebook/archive/refs/heads/main.zip) or click the "Code" button at the upper-right corner of this repository, selecting "Download Zip".
 
-- SEARCH: Displays a list with basic information about saved contacts. You can display more information about a specific contact by entering its index.
+Alternatively, you can clone this repository in your machine. Simple copy and paste or write the following command in your terminal:
 
-- EXIT: Quit the program. All saved contacts are lost.
+    cd ~/Downloads/ &&`git clone https://github.com/dmatavel/phonebook.git`
+
+It assumes that you have [Git](https://git-scm.com/) installed and a **Downloads** folder in your **Home** directory. If you face any error, check this requirements.
+
+## Compilation and execution
+
+If you downloaded the zip file, extract it and enter the **phonebook-main** folder. With a right click on your file browser, select the option **Open in Terminal** or something like that. If you've cloned the repository, simple go inside the program's directory. Copy and paste or write in your terminal:
+
+    make phonebook
+
+It is expected that an executable named **phonebook** to be created. After that, run the program with:
+
+    ./phonebook
+
+## Bugs and contribution
+
+Report bugs sending an email for matavelidanilo@gmail.com or opening an issue on the project's GitHub repository. Pull requests with fixes, features or any other upgrades are highly welcome.  
+
+## Supported OSs
+
+phonebook was developed and tested in a GNU/Linux Debian based system (Ubuntu 22.04 LTS). 
+
+## 42 cursus students
+
+phonebook was first developed as the exercise "My Awesome PhoneBook" in 42 cursus. If you are a student at 42, please be aware that this project may have been modified in relation to the project that was submitted for evaluation during the course. You can take it as a reference for your studies, but not as a parameter for correcting your project.
+
+## License
+
+This is a free work delivered for educational purposes during the main course
+at 42 <42.rio>.
+
+Feel free to use it, change it, give advices, send me a pull request or
+just slack me if you want to share some thoughts.
+
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
