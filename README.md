@@ -39,7 +39,7 @@ Report bugs sending an email for matavelidanilo@gmail.com or opening an issue on
 
 ## Supported OSs
 
-phonebook was developed and tested in a GNU/Linux Debian based system (Ubuntu 22.04 LTS). 
+phonebook was developed and tested in Ubuntu 22.04 LTS. 
 
 ## 42 cursus students
 
